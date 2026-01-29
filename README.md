@@ -86,6 +86,8 @@ Unlike black-box machine learning approaches, this system integrates **classical
 ---
 
 ## 📁 Project Structure
+
+```text
 .
 ├── Team_4_Code.ipynb          # Main project notebook
 ├── Dataset/                  # Dataset directory (excluded from Git)
@@ -96,6 +98,8 @@ Unlike black-box machine learning approaches, this system integrates **classical
 ├── README.md                 # Project documentation
 ├── LICENSE                   # License file
 └── .gitignore                # Dataset and environment exclusions
+
+
 ## 🗂 Dataset
 
 - **Source:** Home Credit Default Risk Dataset
