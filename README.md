@@ -86,4 +86,40 @@ Unlike black-box machine learning approaches, this system integrates **classical
 ---
 
 ## 📁 Project Structure
+.
+├── Team_4_Code.ipynb          # Main project notebook
+├── Dataset/                  # Dataset directory (excluded from Git)
+│   ├── application_data.csv
+│   └── previous_application.csv
+├── requirements.txt          # pip dependencies
+├── environment.yml           # conda environment (optional)
+├── README.md                 # Project documentation
+├── LICENSE                   # License file
+└── .gitignore                # Dataset and environment exclusions
+## 🗂 Dataset
 
+- **Source:** Home Credit Default Risk Dataset
+- **Records:** ~300,000 loan applicants
+- **Features:** 100+ demographic, financial, and credit-history attributes
+- **Target Variable:** Loan Default (0 = Non-default, 1 = Default)
+
+### Data Handling
+- The dataset is excluded from the repository due to size constraints
+- Place the dataset files inside the `Dataset/` folder:
+  - application_data.csv
+  - previous_application.csv
+
+---
+
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.8 or higher
+- Jupyter Notebook or Anaconda
+
+### Setup using pip
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate   # Windows
+pip install -r requirements.txt
