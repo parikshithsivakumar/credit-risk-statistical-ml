@@ -98,7 +98,7 @@ Unlike black-box machine learning approaches, this system integrates **classical
 ├── README.md                 # Project documentation
 ├── LICENSE                   # License file
 └── .gitignore                # Dataset and environment exclusions
-
+```
 ---
 
 ## 🗂 Dataset
